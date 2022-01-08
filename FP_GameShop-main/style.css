@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #EBE9E9;
+}
+
+.section-navbar, footer{
+    background-image: linear-gradient(to right, #192BC2, #449DD1, #78C0E0);
+}
+
+.navbar-toggler{
+    background-color: #192BC2;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.navbar-toggler span + span{
+    display: block;
+    width: 30px;
+    height: 2px;
+    border: 1px;
+    background-color: white;
+}
+
+.navbar-toggler span + span + span{
+    margin-top: 4px;
+    width: 30px;
+}
+
+.navbar-toggler span + span + span + span{
+    width: 30px;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-family: Righteous;
+}
+
+.navbar-brand:hover{
+    color: #EBE9E9;
+}
+
+.navbar li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.section-title h1{
+    color: red;
+}
+
+.section-title h5{
+    color: #7D7C7A;
+}
+
+.section-kategori hr, .section-ubahpassword hr, .section-produk .tambah-produk{
+    width: 250px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.section-produk .edit-produk{
+    width: 200px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.section-produk hr{
+    width: 150px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.section-profil hr{
+    width: 100px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.navbar li a, footer{
+    font-family: 'Montserrat', sans-serif;
+    color: #EBE9E9;
+}
+
+.section-title h1, .section-title h5, .section-produk h2, .section-kategori h2, .section-profil h2, .section-ubahpassword h2{
+    font-family: Righteous;
+}
+
+.section-profil form, .section-ubahpassword form, .section-kategori .table-responsive, .section-produk .table-responsive, .section-kategori form, .section-produk form{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-header{
+    width: 200px;
+    border: 3px solid #313131;
+}
+
+.section-produk img{
+    width: 200px;
+    border: 1px solid #313131;
+}
